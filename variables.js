@@ -6,8 +6,13 @@ var happy= true
 var ready= false
 
 
-var name= "Pablo Hazel"
+var myName= "Pablo Hazel"
 var location= "colorado"
+var greeting= "hello, " + name
+var myCity= "Oahu"
 
-console.log(name)
-console.log(location)
+//console.log(name)
+//console.log(location)
+//console.log(greeting)
+console.log("my name is " + myName + " my Favorite city is " + myCity)
+console.log(`my name is ${myName} My favorite city is ${myCity}.`)
